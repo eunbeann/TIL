@@ -11,6 +11,7 @@ Today I Learned
  - [CSS, 이미지 중앙 정렬하기](CSS/img-center-align.md)
 
 ## JS
- - [JS, 화살표 함수](JS/arrowfunction.md.md)
+ - [JS, 화살표 함수](JS/arrowfunction.md)
  - [JS, Object 객체](JS/Object.md)
+ - [전개연산자:Spread Opertator](JS/SpreadOperator.md)
   
