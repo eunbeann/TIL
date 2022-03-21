@@ -2,6 +2,9 @@
 Today I Learned (~22.02.)
 
 
+## GIT
+ - [특정 커밋 클론받기](https://github.com/eunbeann/TIL/blob/main/GIT/specificCommit.md)
+
 ## React
  - [SPA란? ](https://github.com/eunbeann/TIL/blob/main/React/SPA.md)
  - [React-Slick, 캐러셀 구현하기](https://github.com/eunbeann/TIL/blob/main/React/React-Slick.md)
@@ -17,5 +20,3 @@ Today I Learned (~22.02.)
  - [JS, Object 객체](JS/Object.md)
  - [전개연산자:Spread Opertator](JS/SpreadOperator.md)
 
-
-## PY
