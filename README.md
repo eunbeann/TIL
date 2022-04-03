@@ -13,6 +13,8 @@ Today I Learned (22.02. ~)
  - [React Hooks](React/React-Hooks.md)
  - [React, Axios](React/Axios.md)
  - [React, Fullcalendar 구글 계정 연동](React/FullCalendar-Google.md)
+ - [React, Jest](React/Jest.md)
+ - [React, TDD](React/TDD.md)
 
 ## CSS
  - [CSS, 이미지 중앙 정렬하기](CSS/img-center-align.md)
