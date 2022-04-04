@@ -6,9 +6,9 @@ Today I Learned (22.02. ~)
  - [특정 커밋 클론받기](https://github.com/eunbeann/TIL/blob/main/GIT/specificCommit.md)
 
 ## React
- - [SPA란? ](https://github.com/eunbeann/TIL/blob/main/React/SPA.md)
+ - [React, SPA란? ](https://github.com/eunbeann/TIL/blob/main/React/SPA.md)
  - [React-Slick, 캐러셀 구현하기](https://github.com/eunbeann/TIL/blob/main/React/React-Slick.md)
- - [React의 가상 DOM](React/Virtual-DOM.md)
+ - [React, 가상 DOM](React/Virtual-DOM.md)
  - [React, State](React/State.md)
  - [React Hooks](React/React-Hooks.md)
  - [React, Axios](React/Axios.md)
