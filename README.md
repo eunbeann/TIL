@@ -18,6 +18,7 @@ Today I Learned (22.02. ~)
 
 ## CSS
  - [CSS, 이미지 중앙 정렬하기](CSS/img-center-align.md)
+ - [CSS, 마진 상쇄](CSS/margin-collapsing.md)
 
 ## JS
  - [JS, 화살표 함수](JS/arrowfunction.md)
