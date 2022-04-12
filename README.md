@@ -3,7 +3,7 @@ Today I Learned (22.02. ~)
 
 
 ## GIT
- - [특정 커밋 클론받기](https://github.com/eunbeann/TIL/blob/main/GIT/specificCommit.md)
+ - [GIT, 특정 커밋 클론받기](https://github.com/eunbeann/TIL/blob/main/GIT/specificCommit.md)
 
 ## React
  - [React, SPA란? ](https://github.com/eunbeann/TIL/blob/main/React/SPA.md)
@@ -23,6 +23,6 @@ Today I Learned (22.02. ~)
 ## JS
  - [JS, 화살표 함수](JS/arrowfunction.md)
  - [JS, Object 객체](JS/Object.md)
- - [전개연산자:Spread Opertator](JS/SpreadOperator.md)
+ - [JS, 전개연산자:Spread Opertator](JS/SpreadOperator.md)
  - [JS, JSX](JS/JSX.md)
 
