@@ -5,6 +5,7 @@ Today I Learned (22.02. ~)
 ## CS
 
 - [GET과 POST](https://github.com/eunbeann/TIL/blob/main/CS/GETvsPOST.md)
+- [브라우저 렌더링 과정](https://github.com/eunbeann/TIL/blob/main/CS/BrowserRender.md)
 
 ## GIT
 
