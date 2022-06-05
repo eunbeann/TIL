@@ -4,17 +4,17 @@ Today I Learned (22.02. ~)
 
 ## CS
 
-- [GET과 POST](https://github.com/eunbeann/TIL/blob/main/CS/GETvsPOST.md)
-- [브라우저 렌더링 과정](https://github.com/eunbeann/TIL/blob/main/CS/BrowserRender.md)
+- [GET과 POST](CS/GETvsPOST.md)
+- [브라우저 렌더링 과정](CS/BrowserRender.md)
 
 ## GIT
 
-- [GIT, 특정 커밋 클론받기](https://github.com/eunbeann/TIL/blob/main/GIT/specificCommit.md)
+- [GIT, 특정 커밋 클론받기](GIT/specificCommit.md)
 
 ## React
 
-- [React, SPA란? ](https://github.com/eunbeann/TIL/blob/main/React/SPA.md)
-- [React-Slick, 캐러셀 구현하기](https://github.com/eunbeann/TIL/blob/main/React/React-Slick.md)
+- [React, SPA란? ](React/SPA.md)
+- [React-Slick, 캐러셀 구현하기](React/React-Slick.md)
 - [React, 가상 DOM](React/Virtual-DOM.md)
 - [React, State](React/State.md)
 - [React Hooks](React/React-Hooks.md)
@@ -35,3 +35,7 @@ Today I Learned (22.02. ~)
 - [JS, Object 객체](JS/Object.md)
 - [JS, 전개연산자:Spread Opertator](JS/SpreadOperator.md)
 - [JS, JSX](JS/JSX.md)
+
+## TS
+
+- [TS, 타입스크립트란?](TS/TypeSctipt.md)
