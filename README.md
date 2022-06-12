@@ -10,6 +10,7 @@ Today I Learned (22.02. ~)
 ## GIT
 
 - [GIT, 특정 커밋 클론받기](GIT/specificCommit.md)
+- [GIT, Angular JS Git Commit Message Conventions]
 
 ## React
 
