@@ -11,7 +11,7 @@ Today I Learned (22.02. ~)
 
 - [GIT, 특정 커밋 클론받기](GIT/specificCommit.md)
 - [GIT, Angular JS Git Commit Message Conventions](GIT/commitConventions.md)
-- [GIT, Git-flow](GIT/)
+- [GIT, Git-flow](GIT/GitFlow.md)
 
 ## React
 
