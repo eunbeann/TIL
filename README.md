@@ -7,6 +7,7 @@ Today I Learned (22.02. ~)
 - [GET과 POST](CS/GETvsPOST.md)
 - [브라우저 렌더링 과정](CS/BrowserRender.md)
 - [쿠키, 세션, 토큰](CS/Cookie,Session,Token.md)
+- [데이터 파싱](CS/DataParse.md)
 
 ## GIT
 
