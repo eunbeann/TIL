@@ -48,3 +48,7 @@ Today I Learned (22.02. ~)
 - [TS, .d.ts 확장자](TS/TS.d.ts.md)
 
 ## UNITY
+
+## Err
+
+- [createStore 취소선](Error/createStore_strikethrough.md)
