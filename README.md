@@ -2,6 +2,19 @@
 
 Today I Learned
 
+ <details>
+<summary>  커밋 컨벤션 </summary>
+<div markdown="1">
+
+> [ 카테고리 ] 파일명
+
+    [ WEB ] 웹 최적화
+
+</div>
+</details>
+
+>
+
 ## Algorithm
 
 - [Graph](Algorithm/Graph.md)
@@ -64,6 +77,7 @@ Today I Learned
 - [TS, 타입스크립트란?](TS/TypeSctipt.md)
 - [TS, 완전 기초 문법](TS/TS-Base.md)
 - [TS, .d.ts 확장자](TS/TS.d.ts.md)
+- [TS, TSX, TS](TS/TSXvsTS.md)
 
 ## Err
 
