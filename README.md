@@ -1,6 +1,6 @@
 # TIL
 
-Today I Learned (22.02. ~)
+Today I Learned
 
 ## CS
 
