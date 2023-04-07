@@ -2,6 +2,11 @@
 
 Today I Learned
 
+
+## WEB
+
+- [웹 최적화](Web/WebPerformace.md)
+
 ## CS
 
 - [GET과 POST](CS/GETvsPOST.md)
