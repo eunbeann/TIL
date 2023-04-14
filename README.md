@@ -2,7 +2,6 @@
 
 Today I Learned
 
-
 ## WEB
 
 - [웹 최적화](Web/WebPerformace.md)
@@ -45,6 +44,7 @@ Today I Learned
 - [JS, Object 객체](JS/Object.md)
 - [JS, 전개연산자:Spread Opertator](JS/SpreadOperator.md)
 - [JS, JSX](JS/JSX.md)
+- [JS, NaN===NaN : false](JS/NaN%3D%3D%3DNaN.md)
 
 ## TS
 
