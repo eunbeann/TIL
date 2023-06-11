@@ -52,8 +52,10 @@ Today I Learned
 - [TS, 완전 기초 문법](TS/TS-Base.md)
 - [TS, .d.ts 확장자](TS/TS.d.ts.md)
 
-## UNITY
-
 ## Err
 
 - [createStore 취소선](Error/createStore_strikethrough.md)
+
+## ETC
+
+- [SPA_MPA_CSR_SSR](ETC/SPA_MPA_CSR_SSR.md)
