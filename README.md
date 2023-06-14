@@ -2,6 +2,12 @@
 
 Today I Learned
 
+## Algorithm
+
+- [Graph](Algorithm/Graph.md)
+- [EdgeCase](Algorithm/EdgeCase.md)
+- [GCD](Algorithm/GCD.md)
+
 ## WEB
 
 - [웹 최적화](Web/WebPerformace.md)
