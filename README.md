@@ -12,6 +12,10 @@ Today I Learned
 
 - [웹 최적화](Web/WebPerformace.md)
 
+## HTML
+
+- [button type="button"](HTML/buttonType.md)
+
 ## CS
 
 - [GET과 POST](CS/GETvsPOST.md)
