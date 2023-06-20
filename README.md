@@ -57,6 +57,7 @@ Today I Learned
 - [JS, 전개연산자:Spread Opertator](JS/SpreadOperator.md)
 - [JS, JSX](JS/JSX.md)
 - [JS, NaN===NaN : false](JS/NaN%3D%3D%3DNaN.md)
+- [JS, Array.prototype.map()](<JS/Array.prototype.map().md>)
 
 ## TS
 
