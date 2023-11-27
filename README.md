@@ -20,6 +20,7 @@ Today I Learned
 - [Graph](Algorithm/Graph.md)
 - [EdgeCase](Algorithm/EdgeCase.md)
 - [GCD](Algorithm/GCD.md)
+- [HASH](Algorithm/Hash.md)
 
 ## WEB
 
@@ -87,6 +88,6 @@ Today I Learned
 
 - [SPA_MPA_CSR_SSR](ETC/SPA_MPA_CSR_SSR.md)
 
-
 ## TIL : A LINE
- - [ TIL, A LINE ](ETC/Aline.md)
+
+- [ TIL, A LINE ](ETC/Aline.md)
