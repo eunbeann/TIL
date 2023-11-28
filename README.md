@@ -25,6 +25,7 @@ Today I Learned
 ## WEB
 
 - [웹 최적화](Web/WebPerformace.md)
+- [XSS](Web/XSS.md)
 
 ## HTML
 
@@ -79,6 +80,7 @@ Today I Learned
 - [TS, 완전 기초 문법](TS/TS-Base.md)
 - [TS, .d.ts 확장자](TS/TS.d.ts.md)
 - [TS, TSX, TS](TS/TSXvsTS.md)
+- [TS, Omit](TS/TS-Omit.md)
 
 ## Err
 
