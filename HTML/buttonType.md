@@ -1,3 +1,5 @@
+# Button Type
+
 ## 개념
 
 - button은 총 3가지의 type 속성을 가짐

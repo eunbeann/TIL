@@ -1,16 +1,16 @@
+# JSX
+
 🔗[https://ko.reactjs.org/docs/introducing-jsx.html](https://ko.reactjs.org/docs/introducing-jsx.html)
 
 - 기능적인 큰 차이는 없음
 - JSX는 리액트 엘리먼트를 생성
-
-# JSX
 
 javascript에 xml을 추가한 확장형 문법
 
 빌드시에는 Babel에 의해 JS로 변환된다.
 
 ```jsx
-const element = <h1> Hello, world!</h1>
+const element = <h1> Hello, world!</h1>;
 ```
 
 JS를 확장한 문법인 JSX.

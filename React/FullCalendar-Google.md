@@ -1,10 +1,12 @@
+# FullCalendar
+
 기본 구글 API보다 UI가 깔끔한 FullCalendar!
 
 일정을 간편하게 불러오고 싶어서 구글 연동 방법을 사용하기로 함
 
 처음에 오래 헤맸는데 생각보다 쉬워서 나 같은 사람이 시간 낭비 하지 않길 바라며 기록한다.
 
-!! 공식 문서 잘되어 있으니까 제대로 확인하기 !! 
+!! 공식 문서 잘되어 있으니까 제대로 확인하기 !!
 
 우선 캘린더 설치
 
@@ -40,15 +42,16 @@ fullcalendar react 공식 문서의 예시
 구글 연동을 위해서는
 
 - 사전 작업
-    - Google dev 페이지에서 API key 발급 받기
-    - 구글 캘린더 설정 바꿔주기
+  - Google dev 페이지에서 API key 발급 받기
+  - 구글 캘린더 설정 바꿔주기
 - 코드 내에서
-    - `@fullcalendar/google-calendar` 설치, import 해주기
-    - `plugins={[dayGridPlugin, googleCalendarPlugin]}` 플러그인에 추가
-    - `googleCalendarApiKey={apiKey}
-            events={{
-              googleCalendarId: 'ds.likelion@gmail.com',
-            }}`
+
+  - `@fullcalendar/google-calendar` 설치, import 해주기
+  - `plugins={[dayGridPlugin, googleCalendarPlugin]}` 플러그인에 추가
+  - `googleCalendarApiKey={apiKey}
+        events={{
+          googleCalendarId: 'ds.likelion@gmail.com',
+        }}`
     apikey랑 캘린더 아이디 추기
 
 - 연동완료!

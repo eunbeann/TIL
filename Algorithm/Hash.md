@@ -1,6 +1,8 @@
-//HTTPS://YOUTU.BE/ZFL29YDL9D8
+# 해시(Hash)
 
-# 1. 해시 개념
+### 1. 해시 개념
+
+//HTTPS://YOUTU.BE/ZFL29YDL9D8
 
 ### key:value의 형태를 갖는 자료 구조
 

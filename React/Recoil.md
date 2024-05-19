@@ -1,3 +1,5 @@
+# Recoail
+
 <aside>
 💬 **리액트를 위한 상태 관리 라이브러리**
 
@@ -12,7 +14,9 @@ const [data, setData] = useRecoilState(datas);
 ```
 
 - 전역 상태 값도 React의 state 처럼 간단한 get/set 인터페이스로 사용할 수 있는 boilerplate-free API를 제공함.
+
   - **boilerplate-free**
+
     - 프로그래밍에서 반복적이고 지루한 작업을 줄이고 코드의 재사용성을 높이기 위한 개념
     - **`boilerplate`**
       - 반복적으로 작성되는 코드
@@ -20,12 +24,12 @@ const [data, setData] = useRecoilState(datas);
         - 설정 파일의 생성
         - 초기화 코드 작성
         - 인터페이스 구현
-        - 주로 비슷한 패턴을 가지며 문법적인 요구 사항을 충족시키기 위함
-          -
+        - ## 주로 비슷한 패턴을 가지며 문법적인 요구 사항을 충족시키기 위함
     - 개발자가 반복적인 작업을 줄이고 코드를 간결하게 유지할 수 있도록 함. 이를 위해 여러 가지 기술 패턴이 사용될 수 있다.
     - **보일러플레이트 코드를 제거하면**
       - 코드의 가독성과 유지보수성이 향상될 수 있음
       - 개발자는 중요한 비즈니스 로직에 집중할 수 있으며 새로운 기능을 더 빠르게 개발할 수 있음.
+
     ```jsx
     public class Person {
         private String name;
@@ -40,12 +44,14 @@ const [data, setData] = useRecoilState(datas);
         // ...
     }
     ```
+
     ```jsx
     public record Person(String name, int age) {
         // 필드 정의만으로 생성자, Getter, equals(), hashCode(), toString() 메서드 자동 생성
         // ...
     }
     ```
+
 - React와 개발 방향성이 같음
   - 동시성 모드(Concurrent Mode)를 비롯한 다른 새로운 React의 기능들과 호환 가능성도 가짐
 - 간단한 비동기 처리
@@ -65,6 +71,7 @@ yarn add recoil
 
 - 컴포넌트에서 Recoil state를 사용하기 위해서는 recoil 상태를 사용하고자 하는 컴포넌트 부모에 RecoilRoot 선언
 - Recoil Root는 여러 개 선언 가능
+
   ```jsx
   // App.js
   import React from "react";
@@ -82,10 +89,12 @@ yarn add recoil
 **Atoms**
 
 - state의 단위
+
   - `업데이트` `구독` 가능
   - atom 값을 읽는 컴포넌트들은 암묵적으로 atom을 구독함.
     - atom에 변화 발생시 구독하는 모든 컴포넌트가 리렌더링 됨
   - `key` `dfault` 값을 필수로 선언해주어야 함
+
     - `key`
       - 내부적으로 atom을 식별하는 데 사용되는 고유한 문자열
       - 어플리케이션 전체에서 다른 atom과 selector에 대해서 고유해야함.
@@ -94,6 +103,7 @@ yarn add recoil
       - atom의 초깃값
       - 다양한 타입 사용 가능
       - 동일한 타입의 값을 나타내는 다른 atom이나 selector도 가능
+
     ```jsx
     // atoms.js
     import { atom } from "recoil";
@@ -103,12 +113,15 @@ yarn add recoil
       default: 0, // 초깃값
     });
     ```
+
 - **Atoms 사용하기**
+
   - atom을 읽고 쓰기 위해서는 `useRecoilState()` 사용
   - 기본 값 대신 RcoilState를 인자로 받는 것을 제외하면 useState와 상당히 유사!!
   - 상태 값과, setter 함수를 리턴
     - 이 hook은 암묵적으로 state를 구독함.
       ⇒ atom 값 변경 시 컴포넌트 자동 리렌더링
+
   ```jsx
   // Counter.js
   import React from "react";
@@ -136,6 +149,7 @@ yarn add recoil
     );
   };
   ```
+
 - **atom 및 selector 사용과 관련된 주요 hooks**
   - `useRecoilState()`
     - atom을 `읽고` `쓰기` 위해 사용

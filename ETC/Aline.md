@@ -1,11 +1,4 @@
-<!-- <details>
-<summary> title </summary>
-<div markdown="1">
-
-contents
-
-</div>
-</details> -->
+# 리액트에서 불변성 지키기
 
 <details>
 <summary> 리액트에서 불변성 지키기 </summary>

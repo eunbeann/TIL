@@ -1,3 +1,5 @@
+# window.location.href=sms
+
 ```jsx
  window.location.href = sms:?body=${encodeURIComponent("hi")};
 

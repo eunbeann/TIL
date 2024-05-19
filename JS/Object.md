@@ -1,3 +1,5 @@
+# Object 객체
+
 ### Object 객체
 
 1. 객체 중괄호로 작성
@@ -6,18 +8,18 @@
 
 ```jsx
 const superman = {
-	name:'clark',
-	age : 33,
-}
+  name: "clark",
+  age: 33,
+};
 ```
 
 ### 접근하기
 
 1. 접근 (점, 대괄호 사용)
-    1. superman.name //’ clark’
-    2. superman[’age’] //33
+   1. superman.name //’ clark’
+   2. superman[’age’] //33
 2. 추가 (점, 대괄호 사용)
-    1. superman.gender =’male’;
-    2. superman[’hairColor’] = ‘black’;
+   1. superman.gender =’male’;
+   2. superman[’hairColor’] = ‘black’;
 3. 삭제 (delete 키워드 사용)
-    1. delete superman.hairColor;
+   1. delete superman.hairColor;

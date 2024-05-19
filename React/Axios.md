@@ -1,3 +1,5 @@
+# Axios란 무엇인가?
+
 ## Axios란 무엇인가?
 
 - 브라우저, Node.js를 위한 Promise API를 활용하는 HTTP 비동기 통신 라이브러리
@@ -18,7 +20,7 @@ npm install axios --save
 정보 받아오기
 
 ```jsx
-axios.get('경로')
+axios.get("경로");
 ```
 
 ## Axios를 인스턴스화하기
@@ -30,17 +32,17 @@ axios.get('경로')
 ## Axios 인스턴스 만드는 순서
 
 - 인스턴스를 생성할 폴더 파일 생성
-    - src 폴더 안에 api 폴더 생성 후 axios.js / requests.js 만들기
+  - src 폴더 안에 api 폴더 생성 후 axios.js / requests.js 만들기
 
 ```jsx
-import axios from 'axios';
+import axios from "axios";
 
 const instance = axios.create({
-	baseURL : "http://api.themoivedb.org/3",
-	params : {
-		api_key: 'key 값',
-		language:"ko-KR",
-	},
+  baseURL: "http://api.themoivedb.org/3",
+  params: {
+    api_key: "key 값",
+    language: "ko-KR",
+  },
 });
 
 export default instance;

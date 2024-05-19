@@ -1,3 +1,5 @@
+# 커밋 컨벤션
+
 ## 커밋 메시지 형식
 
 ```powershell
@@ -65,16 +67,14 @@ The <type> and <summary> fields are mandatory, the (<scope>) field is optional.
 
 - **모든 주요 변경 내역 (Breaking changes)**
 - 다음과 같이 하단에 언급되어야 함
-    - 변경점(description of the change)
-    - 변경 사유 (justification)
-    - 마이그레이션 지시 (migration instructions)
+  - 변경점(description of the change)
+  - 변경 사유 (justification)
+  - 마이그레이션 지시 (migration instructions)
 - 해결된 이슈 (Referencing issues)
-    - 해결된 이슈는 커밋 메시지 하단에 `Closes #<이슈번호>`와 같이 기록되어야 함
-    - 해결된 이슈가 여러개인 경우 다음과 같이 작성
-        
-        `Closes #123, #245, #992` 
-        Closes 대신 Fixes 를 사용하기도 함 (Angular 9 규약)
-        
+  - 해결된 이슈는 커밋 메시지 하단에 `Closes #<이슈번호>`와 같이 기록되어야 함
+  - 해결된 이슈가 여러개인 경우 다음과 같이 작성
+    `Closes #123, #245, #992`
+    Closes 대신 Fixes 를 사용하기도 함 (Angular 9 규약)
 
 ```powershell
 feat($browser): onUrlChange event (popstate/hashchange/polling)

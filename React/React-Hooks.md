@@ -1,4 +1,4 @@
-## React Hooks
+# React Hooks
 
 - class 없이 state 사용할 수 있는 기능
 
@@ -7,46 +7,44 @@
 1. 기술은 언제나 문제점을 해결하기 위해 발전
 2. 원래 React는 Class Component를 사용, React Hooks는 Functional Component를 사용하기 때문에 그 부분을 우선적으로 비교함
 3. React Component
-    1. Class Componenet (클래스 컴포넌트)
-    
-    ```jsx
-    import React, { Component } from 'react'
-    
-    export default class Hello extends Component {
-    	render() {
-    		return (
-    			<div>
-    				hello my friends!
-    			</div>
-    		)
-    	}
-    }
-    ```
-    
-    1. 더 많은 기능 제공
-    2. 더 긴 코드 양
-    3. 더 복잡한 코드
-    4. 더딘 성능
-    
-    1. Functional Component (함수형 컴포넌트)
-        
-        ```jsx
-        import React form 'react'
-        
-        export default function Hello() {
-        	return (
-        		<div>
-        			hello my friends!
-        		</div>
-        	)
-        }
-        ```
-        
-        1. 더 적은 기능 제공
-        2. 짧은 코드 양
-        3. 더 심플한 코드
-        4. 더 빠른 성능
-    2. 
+
+   1. Class Componenet (클래스 컴포넌트)
+
+   ```jsx
+   import React, { Component } from "react";
+
+   export default class Hello extends Component {
+     render() {
+       return <div>hello my friends!</div>;
+     }
+   }
+   ```
+
+   1. 더 많은 기능 제공
+   2. 더 긴 코드 양
+   3. 더 복잡한 코드
+   4. 더딘 성능
+
+   5. Functional Component (함수형 컴포넌트)
+
+      ```jsx
+      import React form 'react'
+
+      export default function Hello() {
+      	return (
+      		<div>
+      			hello my friends!
+      		</div>
+      	)
+      }
+      ```
+
+      1. 더 적은 기능 제공
+      2. 짧은 코드 양
+      3. 더 심플한 코드
+      4. 더 빠른 성능
+
+   6.
 
 ### 함수형에서는 사용 못하는 클래스 컴포넌트 기능
 
@@ -63,8 +61,8 @@
 ### 리액트 16.8 Hooks 업데이트로 변경되어 사용 가능
 
 - 함수형 컴포넌트에서도 생명 주기 사용 가능
-    - 데이터 가져오기
-    - 컴포넌트 시작과 동시에 API 호출하기 등
+  - 데이터 가져오기
+  - 컴포넌트 시작과 동시에 API 호출하기 등
 
 ```jsx
 import React, { Component } from 'react'
@@ -97,26 +95,21 @@ render() {
 ```
 
 ```jsx
-import React, { useEffect, useState } from 'react'
-import Axios from 'axios'
+import React, { useEffect, useState } from "react";
+import Axios from "axios";
 
 export default function Hello() {
-//[getter, setter]
-	const [Name, setName] = useState("")
-//useState 괄호안 -> name의 초기값
-// setName이라는 setter 이용해 Name state 업데이트
-	useEffect(() => {
-		Axios.get('/api/user/name')
-		.then(response => {
-			setName(response.data.name)
-		})
-}, [])
+  //[getter, setter]
+  const [Name, setName] = useState("");
+  //useState 괄호안 -> name의 초기값
+  // setName이라는 setter 이용해 Name state 업데이트
+  useEffect(() => {
+    Axios.get("/api/user/name").then((response) => {
+      setName(response.data.name);
+    });
+  }, []);
 
-return (
-	<div>
-		My name is {Name}
-	</div>
-	)
+  return <div>My name is {Name}</div>;
 }
 ```
 
@@ -126,7 +119,7 @@ return (
 // 일반 클래스 컴포넌트에서 생명주기 사용하는 부분
 
 componentDidMount() {
-	//컴포넌트가 마운트 되면 updateLists 함수를 호출 
+	//컴포넌트가 마운트 되면 updateLists 함수를 호출
 	this.updateLists(this.props.id)
 }
 ComponentDidUpdate(prevProps) {
@@ -150,17 +143,16 @@ updateLists = (id) => {
 // React Hooks를 이용한 생명주기 이용
 
 useEffect(() => {
-		fetchLists(id)
-			.then((repos) => {
-				setRepos(repos)
-			})
-}, [id])
+  fetchLists(id).then((repos) => {
+    setRepos(repos);
+  });
+}, [id]);
 
 // 하나씩 안해주고 한꺼번해 해도 됨
 ```
 
 - 선명하게 코드가 간결해짐
-    - classComponent 에서는 생명주기 이용시 componentDIdMount와 ComponentDidUpdate 그리고 compoenentWillUnmount 이렇게 다르게 처리를 해주지만 리액트 HOok사용시 useEffect안에ㅓ 모든 처리가 가능하기 때문
+  - classComponent 에서는 생명주기 이용시 componentDIdMount와 ComponentDidUpdate 그리고 compoenentWillUnmount 이렇게 다르게 처리를 해주지만 리액트 HOok사용시 useEffect안에ㅓ 모든 처리가 가능하기 때문
 
 ### Hooks를 통해 ···
 

@@ -1,3 +1,5 @@
+# Array.prototype.map()
+
 ## 개념
 
 - map() 메서드는
@@ -58,7 +60,8 @@
 
 - **간단한 예제 1**
   배열에 들어있는 숫자들의 제곱근을 구해 새로운 배열 만들기
-  ```jsx
+
+  ````jsx
   var numbers = [1, 4, 9];
   var roots = numbers.map(Math.sqrt);
 
@@ -66,9 +69,12 @@
       // numbers는 그대로 [1, 4, 9]
       ```
 
+  ````
+
 - **간단한 예제 2**
   index 가 짝수인 값들만 객체 배열에서 뽑아내기
-  ```jsx
+
+  ````jsx
   const data = [
   {id: 0, name: '홍길동', age: 10},
   {id: 1, name: '강호동', age: 20},
@@ -88,6 +94,7 @@
       //{id: 2, name: '유재석', age: 30}
       //{id: 4, name: '장채연', age: 50}
       ```
+  ````
 
 ## 참고 링크
 

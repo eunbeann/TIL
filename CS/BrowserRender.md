@@ -1,4 +1,6 @@
-## 브라우저
+# 브라우저 렌더링
+
+# 브라우저
 
 - Chrome, Safari, Firefox, Internet Explorer
 - MDN : 웹에서 페이지를 찾아 보여주고, 사용자가 하이퍼링크를 통해 다른 페이지로 이동할 수 있도록 하느 ㄴ프로그램

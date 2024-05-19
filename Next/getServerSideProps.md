@@ -1,8 +1,10 @@
+# getServerSideProps
+
 ## 개념
 
 - Next.js에서 제공하는 서버사이드렌더링을 위한 함수
 - 페이지 요청 때마다 서버 쪽에서 실행되어 외부 데이터를 가져옴
-⇒ 해당 데이터를 페이지의 props로 전달함.
+  ⇒ 해당 데이터를 페이지의 props로 전달함.
 
 **[ 특징 ]**
 
@@ -56,4 +58,5 @@ export default function Page() {
 - 페이지의 props로 전달
 
 ## 참고 링크
+
 <https://nextjs.org/docs/api-reference/data-fetching/get-server-side-props>

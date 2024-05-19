@@ -1,3 +1,5 @@
+# SPA_MPA_CSR_SSR
+
 ### SPA ↔ MPA
 
 (Single Page Application) ↔ (Multi Page Application)

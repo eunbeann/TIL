@@ -1,3 +1,5 @@
+# git reset --hard <commit id>
+
 일반적인 방식으로 git clone을 하면 기본값은 가장 최신 버전
 
 특정 버전의 커밋을 받아야하는 경우가 생겨서 찾아보았다

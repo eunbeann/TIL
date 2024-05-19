@@ -1,3 +1,5 @@
+# Git Flow
+
 ## Git flow
 
 - GitFlow는 feature 브랜치와 여러 기본 (primary) 브랜치를 사용하는 대안적인 git 브랜치 모델
