@@ -1,27 +1,41 @@
-name: Build README
+name: Update README with Commit Info
 on:
   push:
     branches:
       - main
     paths-ignore:
       - README.md
+
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
-        with:
-          # necessary for github-action-til-autoformat-readme
-          fetch-depth:
 
-      - name: Autoformat README
-        uses: cflynn07/github-action-til-autoformat-readme@1.2.1
-        with:
-          description: |
-            Today I Learned
-          footer: |
-            [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
-            [2]: https://github.com/jbranchaud/til
-          list_most_recent: 2 # optional, lists most recent TILS below description
-          date_format: "2020 Jan 15:04" # optional, must align to https://golang.org/pkg/time/#Time.Format
+      - name: Get latest commit info
+        id: commit_info
+        run: |
+          COMMIT_HASH=$(git log -1 --format="%H")
+          COMMIT_MSG=$(git log -1 --format="%s")
+          COMMIT_DATE=$(git log -1 --format="%Y-%m-%d %H:%M:%S")
+          echo "::set-output name=hash::$COMMIT_HASH"
+          echo "::set-output name=msg::$COMMIT_MSG"
+          echo "::set-output name=date::$COMMIT_DATE"
+
+      - name: Update README
+        run: |
+          echo "## Latest Commit" > README.md
+          echo "- **Commit Hash**: ${{ steps.commit_info.outputs.hash }}" >> README.md
+          echo "- **Message**: ${{ steps.commit_info.outputs.msg }}" >> README.md
+          echo "- **Date**: ${{ steps.commit_info.outputs.date }}" >> README.md
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name 'eunbeann'
+          git config --global user.email 'ds5bean23@gmail.com'
+          git add README.md
+          git commit -m "[ docs ] Update README"
+          git push
