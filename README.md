@@ -1,20 +1,12 @@
 # TIL
 > Today I Learned
 
-A collection of concrete writeups of small things I learn daily while working
-and researching. My goal is to work in public. I was inspired to start this
-repository after reading Simon Wilson's [hacker new post][1], and he was
-apparently inspired by Josh Branchaud's [TIL collection][2].
+학습 조각 모음 Today I Learned
 
 
 _50 TILs and counting..._
 
 ---
-
-### 2 most recent TILs
-
-- [window.location.href=sms](JS/window.location.href=sms.md) - 19190 May 23:43
-- [XSS](Web/XSS.md) - 28280 Nov 19:47
 
 ### Categories
 
