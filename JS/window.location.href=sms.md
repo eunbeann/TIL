@@ -20,7 +20,7 @@
 - 메시지 본문의 텍스트 “hi” 인코딩
 - 예시엔 특수문자가 없기 때문에 sms?body=hi와 같이 평가되지만 실제 사용에서는 그렇지 않기 떄문에 **`encodeURIComponent` 필요**
 
-### 실제 사용 예시
+### 내가 사용한 것
 
 [[ FEAT ] 문자메시지로 공유하기 기능 추가 ](https://github.com/Gwasuwon-shot/Tutice_Client/pull/470)
 
@@ -31,3 +31,6 @@ function handleShareViaMessage() {
   window.location.href = smsLink;
 }
 ```
+
+- 문자열이 길어서 따로 변수에 지정함
+- 특수문자가 있어 인코딩 컴포넌트로 감쌌음
